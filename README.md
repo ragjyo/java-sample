@@ -42,11 +42,13 @@ fi
 
 export JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64
 
-export M2_HOME=/opt/maven
-
+export **M2_HOME='/opt/maven'**
+****PATH="$M2_HOME/bin:$PATH" ****
+****export PATH ****
 export M2=/opt/maven/bin
 
 export PATH=$PATH:$HOME/bin/:$JAVA_HOME:$M2:$M2_HOME
+
 
 export PATH
 ```
